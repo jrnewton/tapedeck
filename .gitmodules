@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:jrnewton/tapedeck-client.git
+[submodule "api"]
+	path = api
+	url = git@github.com:jrnewton/tapedeck-api.git
