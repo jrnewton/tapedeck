@@ -1,6 +1,11 @@
 # Tapedeck
 
-Archive MP3 audio streams
+Archive radio streams to the cloud.
+
+Components:
+* [Client](https://github.com/jrnewton/tapedeck-client) implemented in Vue 3.
+* [APIs](https://github.com/jrnewton/tapedeck-api) implemented in AWS-SAM/Lambda functions.
+
 
 ## Archive an existing stream archive
 
