@@ -1,6 +1,6 @@
 # Tapedeck
 
-Archive radio streams to the cloud.
+I &#128151; <a href="https://wmbr.org/">college radio</a> and wrote this app to capture my favorite shows for later listening and archiving.
 
 Components:
 * [Client](https://github.com/jrnewton/tapedeck-client) implemented in Vue 3.
