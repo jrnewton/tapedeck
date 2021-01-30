@@ -4,7 +4,7 @@ I &#128151; <a href="https://wmbr.org/">college radio</a> and wrote this app to 
 
 Components:
 * [Client](https://github.com/jrnewton/tapedeck-client) implemented in Vue 3.
-* [APIs](https://github.com/jrnewton/tapedeck-api) implemented in AWS-SAM/Lambda functions.
+* [APIs](https://github.com/jrnewton/tapedeck-api) implemented on AWS with lambda functions.
 
 
 ## Archive an existing stream archive
