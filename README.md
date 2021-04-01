@@ -38,26 +38,3 @@ URL - http://wmbr.org:8000/hi
 Store in S3 to start. Consider moving data to glacier as well.
 
 Would be really nice to also push to my Google drive for easy download/listening via GoPlayer.
-
-## Phases
-
-- POST function will consume M3U URL, store first MP3 file direct in S3 with no additional processing.
-- same as previous but queue each MP3 in playlist to another function will process and store into S3.
-- same as previous but capture MP3 metadata via another function.
-- same and store metadata in DynamoDB
-```
-  MP3 item psuedo schema
-  {
-    userid: string,
-    resourceName: string,
-    url: string,
-    metadata: {
-      . . .
-    },
-    playlist: {
-      url: string,
-      ... other meta data
-    }
-  }
-```
-
